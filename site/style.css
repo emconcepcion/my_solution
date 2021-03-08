@@ -1,0 +1,103 @@
+body{
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	float: center;
+}
+
+*{
+	box-sizing: border-box;
+	margin-right:0;
+}
+
+h1{
+	text-align: center;
+	font-size: 250%;
+}
+
+.container{
+	float: center;
+}
+.row{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.row > div{
+	float: center;
+	background: darkgray;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	border: 2px solid black;
+}
+
+p{
+	font-weight: bold;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 35px;
+}
+
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: 33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6{
+		float: left;
+		width: 50%;
+	}
+	#third{
+		float: left;
+		width: 100%;
+	}
+}
+
+.title1{
+	float: right;
+	position: relative;
+	clear: both;
+	background: brown;
+	width: 100px;
+	text-align: center;
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+    font-size: 1.2rem;
+}
+
+.title2{
+	float: right;
+	position: relative;
+	clear: both;
+	background: red;
+	width: 100px;
+	text-align: center;
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	font-size: 1.2rem;
+}
+
+.title3{
+	float: right;
+	position: relative;
+	clear: both;
+	background: blue;
+	width: 100px;
+	text-align: center;
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	font-size: 1.2rem;
+}
